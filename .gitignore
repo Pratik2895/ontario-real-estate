@@ -2,7 +2,9 @@
 data/raw/
 data/bronze/
 data/silver/
-data/gold/
+
+# Gold parquet files ARE committed (small, needed for Streamlit Cloud)
+# data/gold/  <-- NOT ignored
 
 # Python
 __pycache__/
