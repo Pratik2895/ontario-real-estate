@@ -1,8 +1,12 @@
-pyspark==3.5.1
-delta-spark==3.1.0
-pandas==2.2.3
-streamlit==1.38.0
-plotly==5.24.0
-faker==28.0.0
-python-dotenv==1.0.1
-pytest==8.3.2
+# Dashboard (Streamlit Cloud)
+pandas>=2.2.0
+streamlit>=1.38.0
+plotly>=5.24.0
+pyarrow>=15.0.0
+
+# Pipeline (local/Databricks only — not needed for dashboard)
+# pyspark==3.5.1
+# delta-spark==3.1.0
+# faker==28.0.0
+# python-dotenv==1.0.1
+# pytest==8.3.2
